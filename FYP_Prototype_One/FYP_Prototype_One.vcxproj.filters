@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SimManager">
+      <UniqueIdentifier>{14b9f893-be06-4269-b9e4-60d8a29f1118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VirtualEnvironment">
+      <UniqueIdentifier>{a2c931b1-878b-420d-b852-ad502c21bfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VirtualEnvironment">
+      <UniqueIdentifier>{0fb01e5c-fb38-4aa4-b4de-229a3c2d7d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimManager">
+      <UniqueIdentifier>{a8a54525-a4a9-4b94-a377-e42b9f5457bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{c3112fd4-ddde-4d43-b3c5-d495a1f37f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{08dd5503-aace-420a-9f6e-372687cb4745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents">
+      <UniqueIdentifier>{e311828e-3ca6-4795-ac74-647808528047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agent">
+      <UniqueIdentifier>{edeebc7b-c63d-46c1-b329-1b996efbe979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Testing">
+      <UniqueIdentifier>{99558ecb-9351-46c8-a383-bf329edac158}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Resource\Resource.cpp">
+      <Filter>Source Files\VirtualEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\World\World.cpp">
+      <Filter>Source Files\VirtualEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SimManager\SimManager.cpp">
+      <Filter>Source Files\SimManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\camera\Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Sensor\Sensor.cpp">
+      <Filter>Source Files\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Agent\Agent.cpp">
+      <Filter>Source Files\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Actuator\Actuator.cpp">
+      <Filter>Source Files\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\Resource\Resource.h">
+      <Filter>Header Files\VirtualEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\World\World.h">
+      <Filter>Header Files\VirtualEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SimManager\SimManager.h">
+      <Filter>Header Files\SimManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ObjTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\camera\Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Obstacle\Obstacle.h">
+      <Filter>Header Files\VirtualEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Sensor\Sensor.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Actuator\Actuator.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Agent\Agent.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
